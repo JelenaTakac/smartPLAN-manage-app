@@ -4,6 +4,7 @@ import EmployeeList from "./components/EmployeeList";
 import TaskList from "./components/TaskList";
 import MostEffectiveList from "./components/MostEffectiveList";
 import MeetingList from "./components/MeetingList";
+import { dataEmployees, dataTasks } from "./data";
 
 // Functions which returns the data from local storage
 const getLocalStorageEmployee = () => {
@@ -11,7 +12,7 @@ const getLocalStorageEmployee = () => {
   if (employees) {
     return (employees = JSON.parse(localStorage.getItem("employees")));
   } else {
-    return [];
+    return dataEmployees;
   }
 };
 
@@ -20,7 +21,7 @@ const getLocalStorageTask = () => {
   if (tasks) {
     return (tasks = JSON.parse(localStorage.getItem("tasks")));
   } else {
-    return [];
+    return dataTasks;
   }
 };
 
