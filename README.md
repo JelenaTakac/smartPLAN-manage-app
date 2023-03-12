@@ -1,6 +1,6 @@
 # Prime Holding - Internship Application - Setup Guide
 
-The application based on the internship assignment was created using the Javascript library - React.
+The application based on the internship assignment was created using the JavaScript library - React.
 
 ## Table of contents
 
