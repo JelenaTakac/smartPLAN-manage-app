@@ -2,40 +2,41 @@ import React from "react";
 import { FaTrash } from "react-icons/fa";
 import { FaEdit } from "react-icons/fa";
 
-const TaskList = ({ employees, tasks, removeTask, editTask }) => {
+const MeetingList = ({ meetings, removeMeeting, editMeeting }) => {
   return (
     <table className="table__content">
       <tbody>
         <tr>
-          <th>Title</th>
+          <th>Topic</th>
           <th>Description</th>
-          <th>Assigned To</th>
-          <th>Due Date</th>
-          <th>Point</th>
+          <th>When</th>
+          <th>Guests</th>
           <th>Update / Delete</th>
         </tr>
-        {tasks.map((task) => {
-          const { id, title, description, assignee, dueDate, point } = task;
+        {meetings.map((meeting) => {
+          const { id, topic, describeMeeting, when, guests } = meeting;
           return (
             <tr key={id}>
-              <td>{title}</td>
-              <td>{description}</td>
+              <td>{topic}</td>
+              <td>{describeMeeting}</td>
+              <td>{when}</td>
               <td>
-                {
-                  employees.find((employee) => employee.id === assignee)
-                    ?.fullName
-                }
+                {guests.map((guest) => {
+                  return (
+                    <ul>
+                      <li>{guest.label}</li>
+                    </ul>
+                  );
+                })}
               </td>
-              <td>{dueDate}</td>
-              <td>{point}</td>
               <td>
                 <div className="btn-container p-x1">
-                  <button className="btn-edit " onClick={() => editTask(id)}>
+                  <button className="btn-edit " onClick={() => editMeeting(id)}>
                     <FaEdit className="icon__edit" />
                   </button>
                   <button
                     className=" btn-delete "
-                    onClick={() => removeTask(id)}
+                    onClick={() => removeMeeting(id)}
                   >
                     <FaTrash className="icon__delete" />
                   </button>
@@ -49,4 +50,4 @@ const TaskList = ({ employees, tasks, removeTask, editTask }) => {
   );
 };
 
-export default TaskList;
+export default MeetingList;
