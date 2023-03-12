@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Folder structure
 
-![Folder structure](./screenshots/folder_structure1.png)
-![Folder structure](./screenshots/folder_structure2.png)
+![Folder structure](./src/screenshots/folder_structure1.png)
+![Folder structure](./src/screenshots/folder_structure2.png)
 
 ### Additional functionalities
 
