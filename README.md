@@ -44,7 +44,8 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live](https://internship-app-react.netlify.app/)
+- Live Site URL: [Live - main branch](https://internship-app-react.netlify.app/)
+- Live Site URL: [Live - improvement branch](https://smartplan-app-react.netlify.app/)
 - GitHub repository: [Remote repository](https://github.com/JelenaAndelic/prime-holding-internship-app)
 
 ## Author
