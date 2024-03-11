@@ -1,6 +1,6 @@
 # smartPLAN Manage App - Setup Guide
 
-The application based on the internship assignment was created using the JavaScript library - React.
+This project integrates key functionalities for employee and task management, introducing functions such as meeting organization and task difficulty analysis. The inclusion of average point per task statistics enables understanding of the complexity of tasks, empowering managers to make informed decisions.
 
 ## Table of contents
 
