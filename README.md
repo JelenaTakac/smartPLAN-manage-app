@@ -44,7 +44,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live - main branch](https://internship-app-react.netlify.app/)
+- Live Site URL: [Live](https://internship-app-react.netlify.app/)
 
 ## Author
 
