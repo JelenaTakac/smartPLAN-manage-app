@@ -16,19 +16,20 @@ The application based on the internship assignment was created using the JavaScr
 
 ### The setup guide
 
-- Application was created by using the node.js v18.12.1 and React 18.2.0
-- In application implemented React Select component by installing the "react-select" dependencies as a React Font Awesome Icons by installing the "react-icons" dependencies
-- Running application in terminal npm start
+- The application was created using Node.js v18.12.1 and React 18.2.0.
+- React Select component was implemented by installing the "react-select" dependency.
+- React Font Awesome Icons were integrated by installing the "react-icons" dependency.
+- To run the application in the terminal, use `npm start`
 
 ### The assignment
 
-Users should be able to:
+Users can perform the following operations:
 
 - Create, read, update and delete an employee
 - Create, read, update and delete a task
-- See the 5 employees who completed the largest number of tasks in the past (last) month
+- View the 5 employees who completed the largest number of tasks in the past month
 - Create, read, update and delete a meeting
-- See the average point per task
+- View the average point per task
 
 ### Folder structure
 
@@ -37,10 +38,14 @@ Users should be able to:
 
 ### Additional functionalities
 
-- Implemented a new entity - meeting
-- Reason for implemented this entity: Organization of meetings in every company is one of the daily stuff and is more easier if managers can manipulate using app
-- Implemented a statistic - average point per task
-- Reason for implemented this statistic: On this way managers has an insight into the difficulty of the tasks
+- **New Entity - Meeting:**
+
+  - Implemented a new entity - meeting.
+  - Reason for implementing this entity: Organization of meetings in every company is one of the daily tasks and is more manageable if managers can manipulate using the app.
+
+- **Statistic - Average Point per Task:**
+  - Implemented a statistic - average point per task.
+  - Reason for implementing this statistic: This provides managers with insight into the difficulty of the tasks.
 
 ### Links
 
