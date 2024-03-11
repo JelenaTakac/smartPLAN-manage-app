@@ -1,4 +1,4 @@
-# Prime Holding - Internship Application - Setup Guide
+# smartPLAN Manage App - Setup Guide
 
 The application based on the internship assignment was created using the JavaScript library - React.
 
@@ -44,7 +44,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live](https://internship-app-react.netlify.app/)
+- Live Site URL: [Live](https://smart-plan-manage-app-by-react.netlify.app/)
 
 ## Author
 
