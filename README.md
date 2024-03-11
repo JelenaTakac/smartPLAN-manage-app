@@ -50,5 +50,5 @@ Users should be able to:
 
 ## Author
 
-- Linkedin - [@JelenaAndelic](https://www.linkedin.com/in/jelena-andelic-b94446220/)
+- Linkedin - [@JelenaTakac](https://www.linkedin.com/in/jelena-taka%C4%8D-b94446220/)
 - GitHub - [@JelenaAndelic](https://github.com/JelenaAndelic)
